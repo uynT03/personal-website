@@ -20,5 +20,5 @@ export const auth = getAuth();
 const provider = new GoogleAuthProvider();
 export const db = getFirestore(app);
 export const storage = getStorage(app);
-export const myCollectionRef = collection(db, 'portfolio'); 
+export const myCollectionRef = collection(db,'portfolio'); 
 export const signInWithGoogle = () => signInWithPopup(auth, provider);
