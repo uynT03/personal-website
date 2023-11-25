@@ -5,12 +5,14 @@ html {
 body {
   margin: 0;
   font: 300 11px/1.4 'Helvetica Neue', sans-serif;
-  color: #444;
+  color: #000;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #022c43;
   overflow: hidden;
   display: block;
+  /* Add texture background */
+  background-color: #ebe0ce;
+background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
 }
 
 .dashboard {
