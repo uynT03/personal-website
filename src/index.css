@@ -12,7 +12,14 @@ body {
   display: block;
   /* Add texture background */
   background-color: #ebe0ce;
-background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+  /* background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png"); */
+  background-image: url('/Users/truonghoangdonguyen/Downloads/DEMO GLUED PAPER by freeject/22.jpg');
+  background-size: cover;
+  background-position: center center; /* Center the background image */
+  background-repeat: no-repeat;
+  /* Add other styles as needed for your container */
+  width: 100%;
+  height: 100vh;
 }
 
 .dashboard {

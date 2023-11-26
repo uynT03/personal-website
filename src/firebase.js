@@ -4,6 +4,7 @@ import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import { getStorage } from 'firebase/storage';
 import { getFirestore, collection } from 'firebase/firestore/lite';
 
+
 const firebaseConfig = {
   apiKey: "AIzaSyDL_S7_c9E_PsY4c7YTtsO3pmJq_z-PULc",
   authDomain: "personal-website-784e7.firebaseapp.com",
@@ -16,7 +17,7 @@ const firebaseConfig = {
 
 
 const app = initializeApp(firebaseConfig);
-export const auth = getAuth();
+export const auth = getAuth(app);
 const provider = new GoogleAuthProvider();
 export const db = getFirestore(app);
 export const storage = getStorage(app);
